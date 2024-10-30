@@ -7,17 +7,17 @@ const closeBtn = document.getElementById('close');
 
 const data = [
   { image: './drink.jpg', text: "I'm Thirsty" },
-  { image: './img/food.jpg', text: "I'm Hungry" },
-  { image: './img/tired.jpg', text: "I'm Tired" },
-  { image: './img/hurt.jpg', text: "I'm Hurt" },
-  { image: './img/happy.jpg', text: "I'm Happy" },
-  { image: './img/angry.jpg', text: "I'm Angry" },
-  { image: './img/sad.jpg', text: "I'm Sad" },
-  { image: './img/scared.jpg', text: "I'm Scared" },
-  { image: './img/outside.jpg', text: "I Want To Go Outside" },
-  { image: './img/home.jpg', text: "I Want To Go Home" },
-  { image: './img/school.jpg', text: "I Want To Go To School" },
-  { image: './img/play.jpg', text: "I Want To Go To Play" }
+  { image: './food.jpg', text: "I'm Hungry" },
+  { image: './tired.jpg', text: "I'm Tired" },
+  { image: './hurt.jpg', text: "I'm Hurt" },
+  { image: './happy.jpg', text: "I'm Happy" },
+  { image: './angry.jpg', text: "I'm Angry" },
+  { image: './sad.jpg', text: "I'm Sad" },
+  { image: './scared.jpg', text: "I'm Scared" },
+  { image: './outside.jpg', text: "I Want To Go Outside" },
+  { image: './home.jpg', text: "I Want To Go Home" },
+  { image: './school.jpg', text: "I Want To Go To School" },
+  { image: './play.jpg', text: "I Want To Go To Play" }
 ];
 
 data.forEach(createBox);
